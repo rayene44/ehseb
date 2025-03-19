@@ -3,6 +3,9 @@ svg{
     justify-self: center;
     text-align: center;
 }
+body{
+     background-color: black;
+}
 
 .button-container {
     position: relative;
@@ -55,7 +58,7 @@ svg{
   
   .backdrop {
     position: absolute;
-    inset: -9900%;
+    inset: 0%;
     background: radial-gradient(
       circle at 50% 50%,
       #0000 0,
