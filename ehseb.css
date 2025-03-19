@@ -1,0 +1,50 @@
+#t1,#t2,#t3,#t4,#t5,#t6,#t7,#t8,#t9,#t10,#t11,#t12,#t13,#t14,#t15,#t16,#t17,#t18,#t19,#t20,#t21,#t22,#t23,#t24,#t25,#t26{
+    border-radius: 20px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+}
+body{
+    background-color: #111215;
+    justify-self: center;
+}
+h3{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#s1{
+    border-radius: 15px;
+}
+p{
+    color: rgb(212, 206, 206);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#b1{
+    height: 40px;
+    width: 540px;
+    border-radius: 20px;
+    justify-self: center;
+}
+@media screen and (max-width:600px) {
+
+    #t1,#t2,#t3,#t4,#t5,#t6,#t7,#t8,#t9,#t10,#t11,#t12,#t13,#t14,#t15,#t16,#t17,#t18,#t19,#t20,#t21,#t22,#t23,#t24,#t25,#t26{
+        border-radius: 20px;
+        height: 40px;
+        background-color: transparent;
+        color: white;
+        gap: 20px;
+        margin: 5px;
+        justify-self: center;
+    }
+    body{
+        width: 50%;
+        justify-self: center;
+        margin: auto;
+        padding-right: 0px;
+        padding-left: 0% ;
+    }
+    #b1{
+        width: 100%;
+        justify-self: center;
+    }
+}
